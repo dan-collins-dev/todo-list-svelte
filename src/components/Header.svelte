@@ -1,15 +1,11 @@
 <script>
     import AddTodoButton from "./AddTodoButton.svelte";
-
-
 </script>
-
 
 <header>
     <p>// Todo</p>
     <AddTodoButton />
 </header>
-
 
 <style>
     header {
@@ -18,5 +14,9 @@
         background-color: blue;
         color: white;
         align-items: center;
+    }
+
+    p {
+        font-weight: 900;
     }
 </style>
