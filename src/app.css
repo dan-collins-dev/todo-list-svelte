@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./assets/Ubuntu-Regular.ttf);
+  font-display: swap;
+}
+
+*:not(dialog) {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
